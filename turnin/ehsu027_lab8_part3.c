@@ -150,6 +150,7 @@ void Tick_Melody() {
 			}
 			else {
 				SM_State = SM_Wait2;
+				PWM_off();
 			}
 		break;
 		case SM_Wait2:
